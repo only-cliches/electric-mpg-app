@@ -25,4 +25,3 @@ node_modules
 
 *.jks
 src-tauri/*
-dist/*

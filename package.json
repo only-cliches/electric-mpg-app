@@ -1,0 +1,32 @@
+{
+  "name": "electric-mpg",
+  "version": "0.1.2",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri",
+    "tauri:ios:prepare": "rm -rf src-tauri/gen/ios && tauri ios init && tauri icon",
+    "tauri:android:prepare": "rm -rf src-tauri/gen/android && tauri android init && tauri icon",
+    "tauri:android:build": "tauri android build",
+    "tauri:android:dev": "tauri android dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "solid-js": "^1.9.3",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "env-cmd": "^11.0.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}

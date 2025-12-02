@@ -9,7 +9,7 @@ const host = process.env.TAURI_DEV_HOST;
 export default defineConfig(async () => ({
   plugins: [solid(), tailwindcss()],
   build: {
-    outDir: "./dist",
+    outDir: "./docs",
     // rollupOptions: {
     //     input: {
     //         theme: "./src/App.css"

@@ -2,6 +2,8 @@
 
 Tauri v2 test app that calculates the "electric" mpg of EVs.
 
+It answers the question: *"How many miles per gallon would a gas car need to achieve to cost the same per mile as my EV?"*
+
 ​![EV MPG Formula](https://github.com/only-cliches/electric-mpg-app/blob/main/formula.png?raw=true)
 
 View the app on the web:
